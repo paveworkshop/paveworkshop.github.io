@@ -15,7 +15,7 @@ let renderer, scene, camera, stats, controls, raycaster
 
 const pointer = new THREE.Vector2()
 
-const painter = new Painter(10000, 0.2)
+const painter = new Painter(15000, 0.05)
 const worker = new Worker("./js/worker.js")
 
 worker.postMessage({ count:painter.count })
@@ -62,7 +62,7 @@ const init = () => {
 
 	painter.build(scene)
 
-	camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 400 )
+	camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 0.1, 400 )
 	camera.position.set( 0, 50, 0 )
 
 	controls = new OrbitControls(camera, container)
