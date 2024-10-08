@@ -19,7 +19,7 @@ html {
 }
 
 img {
-  width: 50%;
+  width: 90%;
   height: auto;
 
   display: block;
@@ -36,7 +36,7 @@ a, a:hover, a:focus, a:active {
 
 h1 {
 
-	font-size-adjust: 1.2;
+	font-size-adjust: 1.1;
 	font-weight: 300;
 	text-align:center;
 
@@ -44,7 +44,7 @@ h1 {
 
 h2 {
 
-	font-size-adjust: 0.7;
+	font-size-adjust: 0.6;
 	font-weight: 250;
 	text-align:center;
 
