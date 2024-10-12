@@ -19,7 +19,7 @@ html {
 }
 
 img {
-  width: 80vh;
+  width: min(80vh, 90vw);
   height: auto;
 
   display: block;
@@ -88,6 +88,5 @@ body {
 }
 
 .container-item {
-  width:
-  ;
+  width: min(80vh, 90vw);
 }
